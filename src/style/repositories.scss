@@ -8,13 +8,18 @@ section.repository-list {
     margin: 40px;
     background-color: #ffffffc2;
     padding: 40px;
-    border-radius: 4em 0px;
     border: 1px solid #00000030;
-    box-shadow: #0000004a 3px 1px 5px 0px;
+    box-shadow: #0000004a 3px 1px 5px -1px;
 
     h1 {
         margin-bottom: 15px;
-        color: #0000009c;
+        color: #000000bd;
+        text-align: center;
+    }
+
+    div{
+        text-align: center;
+        margin-top: 30px;
     }
 
     ul {
@@ -38,5 +43,20 @@ section.repository-list {
             text-decoration: none;
             color: #8257e6;
         }
+
+        strong{
+            text-align: center;
+            padding: 20px 0px;
+        }
+    }
+    
+    hr{
+        margin: 30px 5px;
+    }
+}
+
+@media (min-width: 400px){
+    section.repository-list{
+        width: 400px;
     }
 }
